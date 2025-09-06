@@ -17,7 +17,6 @@ public class GasolineCounter : MonoBehaviour
         PauseManager.OnGamePaused += PauseCounter;
         PauseManager.OnGameResumed += ResumeCounter;
         PlayerController.OnGasolineAdded += AddedGasolineHandler;
-        PlayerController.OnGasolineAdded += ShowAddedScoreAnimation;
         PlayerController.OnCarDestroyed += PauseCounter;
     }
 

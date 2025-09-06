@@ -762,7 +762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 591490447}
   m_Layer: 0
-  m_Name: AnimationTextSpawnPoint
+  m_Name: BarrelSpawnPointCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
